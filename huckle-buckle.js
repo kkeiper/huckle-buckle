@@ -7,10 +7,24 @@ $(document).ready(function() {
 console.log("You have guessed " + userGuess, answer, numberOfGuesses, randomNumber);
 
 $("#newGame").click(function() {
-	$("#inputBox").html().
+	// $("#inputBox").innerHTML;
+	// console.log($("#inputBox").innerHTML);
+	// console.log(document.getElementById("inputBox").value);
+	$("#inputBox").val("");
+	$("#guesses").html("");
+	$("#message").html("Do you feel lucky?");
+	numberOfGuesses = 0;
+
 });
 
 
+
+$("#submit").click(function() {
+	userGuess = $("#inputBox").val();
+	console.log(userGuess);
+	numberOfGuesses++;
+	console.log(numberOfGuesses);
+});
 
 });
 

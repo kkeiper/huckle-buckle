@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>huckle buckle game</title>
     <link rel="stylesheet" href="huckle-buckle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="huckle-buckle.js"></script>
   </head>
   <body>
@@ -12,19 +13,24 @@
     <h2>Type your guess in the box below:</h2>
 
     <form id="game-form">
-    	<input type="text" id="inputbox" placeholder="Take a guess..." min="1" max="100" maxlength="3"/>
+    	<input type="text" id="inputBox" placeholder="Take a guess..." min="1" max="100" maxlength="3"/>
     	<input type="button" id="submit" value="Submit"/>
-		<input type="button" id="newgame" value="New Game"/>
+		<input type="button" id="newGame" value="New Game"/>
+
+   
 
     </form>
 
-    </div>
-
-	<div id="message">
+    	<div id="message">
 	</div>
 
 	<div id="guesses">
+	<p>3</p>
 	</div>
+
+    </div>
+
+
 
 
   </body>
