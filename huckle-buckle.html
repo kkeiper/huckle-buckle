@@ -8,30 +8,23 @@
     <script src="huckle-buckle.js"></script>
   </head>
   <body>
-  <h1>The computer will generate a number between 1 an X - guess that number. </h1>
+  <h1>The computer will generate a number between 1 an X - guess that number if you think you possibly can. </h1>
     <div id="form-box">
     <h2>Type your guess in the box below:</h2>
+
+    <div id="message">
+	</div>
 
     <form id="game-form">
     	<input type="text" id="inputBox" placeholder="Take a guess..." min="1" max="100" maxlength="3"/>
     	<input type="button" id="submit" value="Submit"/>
 		<input type="button" id="newGame" value="New Game"/>
-
-   
-
     </form>
 
-    	<div id="message">
-	</div>
-
-	<div id="guesses">
-	<p>3</p>
-	</div>
+	<ul id="guessList">
+	</ul>
 
     </div>
-
-
-
 
   </body>
 </html>

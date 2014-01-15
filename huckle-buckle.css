@@ -59,6 +59,8 @@ table {
 body {
 	background-color: #eaeaea;
 	margin-top: 50px;
+	font-family: Arial, sans-serif;
+	padding: 30px;
 }
 
 h1 {
@@ -74,7 +76,7 @@ h1 {
 	margin: 100px auto;
 	width: 400px;
 	padding: 20px;
-	height: 300px;
+	background-color: #ffffff;
 }
 
 h2 {
@@ -82,6 +84,19 @@ h2 {
 	text-align: center;
 	color: #666;
 	margin-bottom: 20px;
+}
+
+/* Text styles */
+
+#message {
+	text-align: center;
+	margin: 20px 0px;
+}
+
+#guessList {
+	margin-top: 20px;
+	text-align: center;
+
 }
 
 
